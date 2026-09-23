@@ -1,3 +1,18 @@
+> ## ⚠️ Archived — use [slopless](https://github.com/fabriziosalmi/slopless) instead
+>
+> This project is no longer developed. Its rules were compared one by one against
+> slopless's, and nearly all of them were already there. The two that were not —
+> **a committed private key** and **`window.open` without `noopener`** — were
+> ported, and are in slopless from v1.14.0.
+>
+> Some rules were deliberately left behind rather than ported: a bare `except:`
+> is already `E722` in ruff, whitespace and blank-line rules are the formatter's
+> job, and `Friday Deploy` / `3AM Commit` are jokes rather than defects — the
+> committer's timezone is not the runner's.
+>
+> Existing pins such as `fabriziosalmi/vibe-check@v1.2.0` keep working: archiving
+> makes the repository read-only, it does not remove the tags.
+
 # VibeGuard Auditor ⚡
 
 **v1.4.0** - Code Quality Scanner with Modular Architecture
